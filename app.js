@@ -13,6 +13,7 @@ possibleChoices.forEach((possibleChoices) =>
 		userChoice = e.target.id;
 		userChoiceDisplay.innerHTML = userChoice;
 		generateComputerChoice();
+		getResult();
 	})
 );
 
